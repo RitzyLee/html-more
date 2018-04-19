@@ -1,0 +1,10 @@
+* {
+  box-shadow: border-box;
+}
+body {
+  font: 16px helvetica, arial, serif
+}
+.nav-main li a {
+  color: green;
+}
+.nav-main li a: hover {}
