@@ -30,7 +30,7 @@ if not it will use the <a> hight*which is inline-block*/
   max-width: 400px;
   margin: 20px auto;
 }
-/* margine: 20px auto; will always display in the middle*/
+/* margin: 20px auto; will always display in the middle*/
 p .lead {
   margin-bottom: 5px;
 }
