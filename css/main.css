@@ -2,9 +2,38 @@
   box-shadow: border-box;
 }
 body {
-  font: 16px helvetica, arial, serif
+  font: 20px helvetica, arial, serif
+}
+
+.nav-main {
+  background-color: grey;
+  overflow: auto;/*holds out hight*/
+}
+.nav-main li {
+  display: inline-block;
 }
 .nav-main li a {
-  color: green;
+  color: White;
+  padding: 20px;
+  display: block;
+/*use display:lock to give you nav more hight.
+if not it will use the <a> hight*which is inline-block*/
 }
-.nav-main li a: hover {}
+.nav-main li a:hover {
+  color: red;
+}
+.nav-main li a:active {
+  background-color: blue;
+}
+.conainter-form {
+  border: 1px solid: red;
+  max-width: 400px;
+  margin: 20px auto;
+}
+/* margine: 20px auto; will always display in the middle*/
+p .lead {
+  margin-bottom: 5px;
+}
+
+p {margin-bottom: 18px;
+}

@@ -3,15 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>html more</title>
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <nav class="nav-main">
       <ul>
-        <li><a href="#">Home</li>
-        <li><a href="#">About</li>
-        <li><a href="#">Contact</li>
-        <li><a href="#">Blog</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
       </ul>
     </nav>
+<!--build dynamic query string using a form -->
+    <section class="container-form">
+      <form action="https://imdb.com/find" target="_blank" method="get">
+<!--lable wrapped around the  -->
+        <p><label for="query">Enetr a Query:</label></p>
+        <p><input id=query type="text" name="q"></p>
+<!--name="q" is a key code that sites allow you to use
+their search engine.each site may have a differant Key code.-->
+<!--label as a wrap around rather then the top format.
+Both are acceptable-->
+        <label>
+          <p class="lead">Eneter Catagory</p>
+          <p>
+            <select name="s">
+              <option value="ep">TV Episodes</option>
+              <option value="tt">Title</option>
+              <option value="nm">name</option>
+              <option value="kw">Keywords</option>
+            </select>
+          </p>
+        </label>
+          <p class="lead"><button type="submit">Submit</button></p>
+      </form>
+
+      <p><a href="#">link</a></p>
+    </section>
   </head>
   <body>
 
